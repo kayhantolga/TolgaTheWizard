@@ -8,4 +8,3 @@ This project uses sms validation using facebook account kit. Not suitable for pr
 -Install-Package Betalgo.FacebookAccountKit 
 ```
 
-https://www.nuget.org/packages/Betalgo.FacebookAccountKit/
