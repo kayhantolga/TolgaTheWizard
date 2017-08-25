@@ -6,7 +6,7 @@ using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using FacebookAccountKit.ResponseModels;
 using TolgaTheWizard.ErrorHandler;
-using TolgaTheWizard;
+using TolgaTheWizard.Extensions;
 
 namespace FacebookAccountKit
 {

@@ -2,18 +2,17 @@
 <package >
   <metadata>
     <id>Betalgo.TolgaTheWizard</id>
-    <!--<id>$id$</id>-->
     <version>$version$</version>
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <licenseUrl>http://www.jclark.com/xml/copying.txt</licenseUrl>
     <projectUrl>https://github.com/kayhantolga/TolgaTheWizard</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <iconUrl>https://avatars3.githubusercontent.com/u/7516303?v=4</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
     <copyright>Copyright 2017</copyright>
-    <tags>Tag1 Tag2</tags>
+    <tags>tolga</tags>
   </metadata>
 </package>

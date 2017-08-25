@@ -53,8 +53,8 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="TolgaTheWizard, Version=1.0.1.18940, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Betalgo.TolgaTheWizard.1.0.1.18940\lib\net452\TolgaTheWizard.dll</HintPath>
+    <Reference Include="TolgaTheWizard, Version=1.0.1.27863, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Betalgo.TolgaTheWizard.1.0.1.27863\lib\net452\TolgaTheWizard.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
