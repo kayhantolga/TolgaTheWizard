@@ -1,13 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.8
+VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TolgaTheWizard", "TolgaTheWizard\TolgaTheWizard.csproj", "{FED19AD3-997A-47E8-A564-CD9CC93BFD96}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizardConsole", "WizardConsole\WizardConsole.csproj", "{F93C73DF-1B28-4124-9962-A746D6879BED}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacebookAccountKit", "FacebookAccountKit\FacebookAccountKit.csproj", "{F2E43F97-2255-4AC9-842C-8992661882A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		{F93C73DF-1B28-4124-9962-A746D6879BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F93C73DF-1B28-4124-9962-A746D6879BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F93C73DF-1B28-4124-9962-A746D6879BED}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F2E43F97-2255-4AC9-842C-8992661882A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F2E43F97-2255-4AC9-842C-8992661882A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F2E43F97-2255-4AC9-842C-8992661882A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F2E43F97-2255-4AC9-842C-8992661882A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

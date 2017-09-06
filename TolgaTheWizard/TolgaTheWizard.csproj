@@ -53,12 +53,14 @@
     <Compile Include="ErrorHandler\Error.cs" />
     <Compile Include="ErrorHandler\ErrorCodes.cs" />
     <Compile Include="ErrorHandler\FormattedDbEntityValidationException.cs" />
+    <Compile Include="Extensions\StreamExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
     <None Include="README.md" />
+    <None Include="TolgaTheWizard.nuspec" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
