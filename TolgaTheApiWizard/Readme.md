@@ -11,7 +11,7 @@ This codes are not suitiable for production  because they are built and updated 
 
 ## Code Examples
 #### Swagger Header Parameter
-Add your pages to an enum
+Add header parameters to swagger documentation
 ```csharp
    public static void Register()
         {
@@ -32,3 +32,16 @@ Add your pages to an enum
                         AuthHeader.Apply(c);
 ...
 ```
+
+#### AiHandleErrorAttribute
+Add this codes for track exceptions on Application Insight
+
+```csharp
+    //in your FilterConfig class
+    public static void RegisterGlobalFilters(GlobalFilterCollection filters)
+    {
+        filters.Add(new AiHandleErrorAttribute());
+    }
+```
+
+
