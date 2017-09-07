@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("FacebookAccountKit")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("TolgaTheApiWizard")]
+[assembly: AssemblyDescription("Best helper of the Api Wizards. Be carefull using magics. They are not tested.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("FacebookAccountKit")]
+[assembly: AssemblyCompany("Betalgo")]
+[assembly: AssemblyProduct("Tolga The Api Wizard")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyTrademark("Betalgo")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f2e43f97-2255-4ac9-842c-8992661882a1")]
+[assembly: Guid("81903553-20cd-4488-8a91-0cdb096e2d0c")]
 
 // Version information for an assembly consists of the following four values:
 //

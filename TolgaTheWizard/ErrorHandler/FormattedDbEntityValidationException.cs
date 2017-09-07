@@ -15,8 +15,7 @@ namespace TolgaTheWizard.ErrorHandler
         {
             get
             {
-                var innerException = InnerException as DbEntityValidationException;
-                if (innerException != null)
+                if (InnerException is DbEntityValidationException innerException)
                 {
                     var sb = new StringBuilder();
 

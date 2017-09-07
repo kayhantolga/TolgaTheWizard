@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Betalgo.FacebookAccountKit</id>
+    <id>Betalgo.TolgaTheApiWizard</id>
     <version>$version$</version>
     <title>$title$</title>
-    <authors>Betalgo</authors>
+    <authors>$author$</authors>
     <owners>$author$</owners>
     <licenseUrl>http://www.jclark.com/xml/copying.txt</licenseUrl>
     <projectUrl>https://github.com/kayhantolga/TolgaTheWizard</projectUrl>
     <iconUrl>https://avatars3.githubusercontent.com/u/7516303?v=4</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Facebook Account Kit just for sms validation</description>
+    <description>$description$</description>
     <copyright>Copyright 2017</copyright>
-    <tags>Facebook AccountKit SmsValidation</tags>
+    <tags>tolga wep api wizard</tags>
   </metadata>
 </package>
