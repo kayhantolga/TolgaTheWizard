@@ -9,11 +9,11 @@ using TolgaTheWizard.ErrorHandler;
 
 namespace TolgaTheApiWizard.ErrorHandler
 {
-    public class BadRequestResult : IHttpActionResult
+    public class BadRequestErrorResult : IHttpActionResult
     {
         private readonly ErrorViewModel _error;
 
-        public BadRequestResult(Error model)
+        public BadRequestErrorResult(Error model)
         {
             _error = new ErrorViewModel(model);
         }

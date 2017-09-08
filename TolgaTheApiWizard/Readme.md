@@ -43,7 +43,7 @@ Add this codes for track exceptions on Application Insight
         filters.Add(new AiHandleErrorAttribute());
     }
 ```
-#### BadRequestResult
+#### BadRequestErrorResult
 Helps error messages become user and developer friendly.
 
 ```csharp
@@ -60,7 +60,7 @@ Helps error messages become user and developer friendly.
         }
         catch (Error error)
         {
-            return new BadRequestResult(error);
+            return new BadRequestErrorResult(error);
         }
     }
 ```
