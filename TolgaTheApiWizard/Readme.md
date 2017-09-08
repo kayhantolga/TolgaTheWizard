@@ -43,5 +43,27 @@ Add this codes for track exceptions on Application Insight
         filters.Add(new AiHandleErrorAttribute());
     }
 ```
+#### BadRequestResult
+Helps error messages become user and developer friendly.
+
+```csharp
+    /// <summary>
+    /// Try to get sample error
+    /// </summary>
+    [HttpGet, Route("Error/GetError"), ResponseType(typeof(SampleViewModel))]
+    public async Task<IHttpActionResult> GetErrorAsync()
+    {
+        try
+        {
+            throw ErrorCodes.AccessDenied;
+            return Ok(new SampleViewModel());
+        }
+        catch (Error error)
+        {
+            return new BadRequestResult(error);
+        }
+    }
+```
+
 
 
