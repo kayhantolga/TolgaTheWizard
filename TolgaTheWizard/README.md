@@ -9,4 +9,20 @@ This codes are not suitiable for production  because they are built and updated 
 -Install-Package Betalgo.TolgaTheWizard 
 ```
 
-https://www.nuget.org/packages/Betalgo.FacebookAccountKit/
+## Code Examples
+
+#### GenerateRandomUserFriednlyCode
+Add this codes for track exceptions on Application Insight
+
+```csharp
+    //Only Numeric and default 10 character result
+    string mycode1 = TokenHandlers.GenerateRandomUserFriednlyCode();
+    //Only Numeric and 6 character result
+    string mycode2 = TokenHandlers.GenerateRandomUserFriednlyCode(6);
+    //Create from given string characters(repeating characters increase the frequency of use.) 
+    //and  default 10 character result
+    string mycode3 = TokenHandlers.GenerateRandomUserFriednlyCode("abcd123");
+    //Create from given string characters and 8 character result
+    string mycode4 = TokenHandlers.GenerateRandomUserFriednlyCode("abcd123",8);
+```
+ 

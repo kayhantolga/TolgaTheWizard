@@ -10,6 +10,8 @@ This codes are not suitiable for production  because they are built and updated 
 ```
 
 ## Code Examples
+You can find common usage of methods. Also you need to check my base library too
+https://github.com/kayhantolga/TolgaTheWizard
 #### Swagger Header Parameter
 Add header parameters to swagger documentation
 ```csharp
