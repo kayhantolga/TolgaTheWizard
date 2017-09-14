@@ -2,7 +2,7 @@
 
 namespace TolgaTheApiWizard.ErrorHandler.Model
 {
-    public class ErrorViewModel
+    public partial class ErrorViewModel
     {
         public ErrorViewModel(Error error)
         {

@@ -3,7 +3,7 @@ using Microsoft.ApplicationInsights;
 
 namespace TolgaTheApiWizard.ErrorHandler
 {
-    public class AiExceptionLogger : ExceptionLogger
+    public partial class AiExceptionLogger : ExceptionLogger
     {
         public override void Log(ExceptionLoggerContext context)
         {

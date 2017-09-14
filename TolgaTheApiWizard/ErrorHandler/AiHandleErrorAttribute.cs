@@ -4,8 +4,8 @@ using Microsoft.ApplicationInsights;
 
 namespace TolgaTheApiWizard.ErrorHandler
 {
-    [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, Inherited = true, AllowMultiple = true)]
-    public class AiHandleErrorAttribute : HandleErrorAttribute
+    [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = true)]
+    public partial class AiHandleErrorAttribute : HandleErrorAttribute
     {
         public override void OnException(ExceptionContext filterContext)
         {
