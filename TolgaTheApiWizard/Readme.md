@@ -48,6 +48,20 @@ Add this codes for track exceptions on Application Insight
 #### BadRequestErrorResult
 Helps error messages become user and developer friendly.
 
+When you wand to handle ErrorCodes
+
+Add filter in your WebApiConfig class
+```csharp
+
+ public static class WebApiConfig
+    {
+        public static void Register(HttpConfiguration config)
+        {
+            ...
+            config.Filters.Add(new GlobalErrorHandler());
+            ...         
+```
+Or use your Controllers like this
 ```csharp
     /// <summary>
     /// Try to get sample error
@@ -57,7 +71,9 @@ Helps error messages become user and developer friendly.
     {
         try
         {
+            //For sample Error
             throw ErrorCodes.AccessDenied;
+
             return Ok(new SampleViewModel());
         }
         catch (Error error)
@@ -66,6 +82,17 @@ Helps error messages become user and developer friendly.
         }
     }
 ```
+
+Sample Response after throw an Error
+```json
+{
+  "Code": "0X0403",
+  "UserFriendlyMessage": "Access Denied",
+  "DeveloperMessage": "AccessDenied"
+}
+```
+
+
 
 
 

@@ -109,6 +109,7 @@
     <Compile Include="ErrorHandler\AiExceptionLogger.cs" />
     <Compile Include="ErrorHandler\AiHandleErrorAttribute.cs" />
     <Compile Include="ErrorHandler\BadRequestErrorResult.cs" />
+    <Compile Include="ErrorHandler\GlobalErrorHandler.cs" />
     <Compile Include="ErrorHandler\Model\ErrorViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Swagger\SwaggerHeaderParameter.cs" />
