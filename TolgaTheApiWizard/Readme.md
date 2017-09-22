@@ -91,8 +91,39 @@ Sample Response after throw an Error
   "DeveloperMessage": "AccessDenied"
 }
 ```
+#### Facebook Login from token
+if you need to get user information from user accesstoken
+
+```xml
+    <appSettings>
+        <add key="FacebookLoginAppId" value="123....45" />
+        <add key="FacebookLoginAppToken" value="12...ab" />
+    </appSettings>
+```
+```csharp
+
+    try
+    {
+        FacebookLogin facebook = new FacebookLogin(token);
+        //or
+        //FacebookLogin facebook = new FacebookLogin(token,myAppID,myAppToken);
+        facebook.IncludeBasicInformation().IncludeBirthday().IncludeEmail().IncludeProfilePicture(500, 500).IncludeFriendList();
+        if (!await facebook.CheckTokenAsync())
+        {
+            Console.WriteLine("bad boy");
+        }
+
+        var user = await facebook.GetUserInformationsAsync();
+        
+        Console.WriteLine(user.Name);
+        Console.WriteLine(user.Friends.Data.Count);
+    }
+    catch (Error e)
+    {
+        Console.WriteLine(e);
+        throw;
+    }
 
 
-
-
+```
 
