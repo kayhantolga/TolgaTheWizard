@@ -49,10 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Coordinate.cs" />
     <Compile Include="Extensions\CommunicationExtensions.cs" />
     <Compile Include="ErrorHandler\Error.cs" />
     <Compile Include="ErrorHandler\ErrorCodes.cs" />
     <Compile Include="ErrorHandler\FormattedDbEntityValidationException.cs" />
+    <Compile Include="Extensions\LocationExtensions.cs" />
     <Compile Include="Extensions\StreamExtensions.cs" />
     <Compile Include="Helper\TokenHandlers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
