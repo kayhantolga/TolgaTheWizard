@@ -49,7 +49,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Coordinate.cs" />
+    <Compile Include="Extensions\ObjectMappingExtensions.cs" />
+    <Compile Include="Models\Coordinate.cs" />
     <Compile Include="Extensions\CommunicationExtensions.cs" />
     <Compile Include="ErrorHandler\Error.cs" />
     <Compile Include="ErrorHandler\ErrorCodes.cs" />

@@ -1,4 +1,5 @@
 ﻿using System.Data.Entity.Spatial;
+using TolgaTheWizard.Models;
 
 namespace TolgaTheWizard.Extensions
 {
@@ -10,7 +11,7 @@ namespace TolgaTheWizard.Extensions
         /// <param name="longitude">longitude</param>
         /// <param name="latitude">latitude</param>
         /// <returns></returns>
-        private static DbGeography ToDbGeography(double longitude, double latitude)
+        public static DbGeography ToDbGeography(double longitude, double latitude)
         {
             return DbGeography.FromText($"POINT({longitude} {latitude})");
         }
@@ -20,7 +21,7 @@ namespace TolgaTheWizard.Extensions
         /// </summary>
         /// <param name="coordinate"></param>
         /// <returns></returns>
-        private static DbGeography ToDbGeography(this Coordinate coordinate)
+        public static DbGeography ToDbGeography(this Coordinate coordinate)
         {
             return DbGeography.FromText($"POINT({coordinate.Longitude} {coordinate.Latitude})");
         }
