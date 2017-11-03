@@ -11,8 +11,9 @@ This codes are not suitiable for production  because they are built and updated 
 
 ## Code Examples
 
-#### GenerateRandomUserFriednlyCode
-Add this codes for track exceptions on Application Insight
+#### GenerateRandomUserFriendlyCode
+
+Create UserFriendly Codes
 
 ```csharp
     //Only Numeric and default 10 character result
@@ -24,5 +25,22 @@ Add this codes for track exceptions on Application Insight
     string mycode3 = TokenHandlers.GenerateRandomUserFriednlyCode("abcd123");
     //Create from given string characters and 8 character result
     string mycode4 = TokenHandlers.GenerateRandomUserFriednlyCode("abcd123",8);
+```
+ 
+
+#### Map object to another
+
+Sample Derived Class
+```csharp
+    public class DerivedClass:BaseClass
+    {
+        ...
+    }
+```
+
+Sample Usage
+```csharp
+    DerivedClass derived = new DerivedClass();
+    BaseClass base =  derived.To<BaseClass>();
 ```
  

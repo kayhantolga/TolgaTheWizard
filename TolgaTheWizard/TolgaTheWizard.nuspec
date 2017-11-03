@@ -12,6 +12,6 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <copyright>Copyright 2017</copyright>
-    <tags>tolga the wizard token generater error handler</tags>
+    <tags>tolga the wizard token generater error handler Object mapper</tags>
   </metadata>
 </package>
