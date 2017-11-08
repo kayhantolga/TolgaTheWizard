@@ -20,7 +20,7 @@ namespace TolgaTheWizard.Extensions
                 var targetProp = target.GetType().GetProperty(prop.Name);
                 if (targetProp != null)
                 {
-                    var value = targetProp.GetValue(source, null);
+                    var value =prop.GetValue(source);
                     target.GetType().GetProperty(prop.Name)?.SetValue(target, value, null);
                 }
             });
